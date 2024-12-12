@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js" defer></script>
+</head>
+<body onload="initializeGallery()">
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <img class="preview" tabindex="0" alt="Styling with a Bandana" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" tabindex="0" alt="With My Boy" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" tabindex="0" alt="Young Puppy" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" tabindex="0" alt="My University" src="https://emsi.ma/wp-content/uploads/2020/08/campus-agdal.jpg" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" tabindex="0" alt="My City" src="https://cdn.britannica.com/20/100020-050-A6F990B3/pedestals-Hassan-Tower-Rabat-mosque-Mor.jpg" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" tabindex="0" alt="My Neighborhood" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sal%C3%A9_Tabriquet_Train_Station.jpg/760px-Mapcarta.jpg" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+</body>
+</html>
